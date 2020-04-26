@@ -20,6 +20,7 @@ afl-fuzz -i fuzz_in -o fuzz_out -D C:\dynamorio\bin32 -f valve/fuzz -t 1000 -M m
 ```
 
 `0x1190` is RVA of `fuzz` function in `hlds-fuzz.cpp`. Use a disassembler to get RVA after building.
+
 Since the input file that we feed to the process is `fuzz`, we must configure `-f` flag of WinAFL to point to `valve/fuzz`.
 
 ## License
