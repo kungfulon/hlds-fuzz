@@ -18,5 +18,16 @@
     <ClCompile Include="hlds-fuzz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\hlsdk\public\interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IDedicatedExports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDedicatedServerAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
